@@ -1,36 +1,33 @@
-<Interface to In-Network Functions (I2INF) Side Meeting>
+[IETF 120] Side Meeting for Interface to In-Network Functions (I2INF)
 
 o IETF-120 I2INF Side Meeting
 - When: 3:30pm-5:30pm on July 24, 2024 (Wednesday)
 - Where: Tennyson (Level: Fourth Floor)
   https://datatracker.ietf.org/meeting/120/floor-plan
+- Agenda:
+  https://github.com/jaehoonpauljeong/I2INF/blob/main/Side-Meeting/IETF-120/IETF120-I2INF-Side-Meeting-Agenda.txt
 - Meeting Materials:
   https://github.com/jaehoonpauljeong/I2INF/tree/main/Side-Meeting/IETF-120  
 - Zoom Meeting Link:
   https://us02web.zoom.us/j/87173908036?pwd=lIjbDFlLFizXP8QpNPydOayrlLMdKQ.1
 
-o Goal of I2INF 
-- I2INF identifies the gaps for In-Network Functions (INF)
-  in Computing in the Network (COIN) and comes up with 
-  a framework to manage such INFs in an autonomous way. 
-  An INF is a Programmable Network Device (PND) in an
-  In-Network Computing (INC) environment that can have
-  multiple kinds of capabilities to provision a user's
-  service, consisting of Network Functions (NFs) and
-  Application Functions (AFs).
-- The I2INF group aims at specifying a problem statement 
-  and a framework with common interfaces for the
-  management of INFs for a user's services.
-- This group aims at to standardize an I2INF framework
-  and the YANG data models for the capabilities of INFs and
-  the I2INF interfaces. An intent or a policy for the
-  INFs can be constructed by an XML file based on
-  those YANG data models. The delivery of such an intent or
-  a policy can be performed by either NETCONF or RESTCONF. 
+o Goal of In-Network Functions (I2INF)
+- I2INF identifies the gaps for In-Network Functions (INF) in Computing in the Network
+  (COIN) and comes up with a framework to manage such INFs in an autonomous way.
+  An INF is a Programmable Network Device (PND) in an In-Network Computing (INC)
+  environment that can have multiple kinds of capabilities to provision a user's service,
+  consisting of Network Functions (NFs) and Application Functions (AFs).
+- The I2INF group aims at specifying a problem statement and a framework with
+  common interfaces for the management of INFs for a user's services.
+- This group aims at standardizing an I2INF framework and the YANG data models for
+   the capabilities of INFs and the I2INF interfaces. An intent or a policy for the INFs can
+   be constructed by an XML file based on those YANG data models. The delivery of
+   such an intent or a policy can be performed by either NETCONF or RESTCONF.
 - This group will specify the following items:
-. Interface to In-Network Functions (I2INF): Problem Statement
-. A Framework for Interface to In-Network Functions (I2INF)
-. YANG Data Models for the I2INF Capability and Interfaces 
+(1) Interface to In-Network Functions (I2INF): Problem Statement,
+(2) A Framework for Interface to In-Network Functions (I2INF), and
+(3) YANG Data Models for the I2INF Capability and Interfaces.
+-----
 
 o Agenda
 - Agenda Bash
