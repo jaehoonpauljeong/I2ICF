@@ -17,6 +17,6 @@ o Goal of In-Network Functions (I2INF)
   those YANG data models. The delivery of such an intent or
   a policy can be performed by either NETCONF or RESTCONF. 
 - This group will specify the following items:
-. Interface to In-Network Functions (I2INF): Problem Statement
-. A Framework for Interface to In-Network Functions (I2INF)
-. YANG Data Models for the I2INF Capability and Interfaces 
+(1) Interface to In-Network Functions (I2INF): Problem Statement
+(2) A Framework for Interface to In-Network Functions (I2INF)
+(3) YANG Data Models for the I2INF Capability and Interfaces 
