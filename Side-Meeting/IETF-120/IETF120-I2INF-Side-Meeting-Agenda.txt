@@ -42,12 +42,12 @@ o Agenda
  . Time: 15 min (15:40-15:55)
  . Slides: https://datatracker.ietf.org/doc/slides-120-hackathon-sessd-interface-to-in-network-functions-i2inf/   
 
-- I2NSF: Problem Statement
+- I2INF: Problem Statement
  . Presenter: Jaehoon (Paul) Jeong (SKKU)
  . Time: 25 min (15:55-16:20)
  . Draft: https://datatracker.ietf.org/doc/html/draft-jeong-opsawg-i2inf-problem-statement-00
   
-- A Framework for I2NSF
+- A Framework for I2INF
  . Presenter: Yoseop Ahn (SKKU)
  . Time: 20 min (16:20-16:40)
  . Draft: https://datatracker.ietf.org/doc/html/draft-jeong-opsawg-i2inf-framework-00
@@ -56,7 +56,7 @@ o Agenda
  . Presenter: Yiwen (Chris) Shen (SKKU)
  . Time: 20 min (16:40-17:00)
  . Draft: https://datatracker.ietf.org/doc/html/draft-jeong-opsawg-intent-based-sdv-framework-02
-     
+
 - Discussion
  . Facilitator: Jaehoon (Paul) Jeong (SKKU)
  . Time: 30 min (17:00-17:30)
