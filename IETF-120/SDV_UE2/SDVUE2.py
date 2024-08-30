@@ -1,0 +1,92 @@
+import requests
+import random
+from flask import Flask, request, Response
+import pytz
+from datetime import datetime
+import subprocess  # For running system commands
+import re  # For regular expression operations
+from xml.dom.minidom import parseString  # For formatting XML
+
+
+#CloudServer IP, SDVUE2 port
+CloudServer_IP = "10.60.0.10"
+CloudServer_port2 = 9091
+UE2port = 8081
+
+# Initialize the Flask application
+app = Flask(__name__)
+
+# Define a route to handle POST requests to '/receive_message'
+@app.route('/receive_message', methods=['POST'])
+def receive_message():
+    # Set the timezone
+    timezone_now = pytz.timezone('Asia/Seoul')
+
+    # Get the current time in the specified timezone
+    current_time = datetime.now(timezone_now).strftime('%Y-%m-%d %H:%M:%S')
+
+    # Read and decode the XML data from the request
+    print("\n")
+    print("=========new message start==============")
+    print("Received XML from SDVUser:")
+    xml_data = request.data.decode('utf-8')
+    dom = parseString(xml_data)
+    pretty_xml = dom.toprettyxml()
+    print(pretty_xml)
+
+    # Create a message with the current speed and time
+    speed = random.randint(0, 100)
+    message = f"SDV2 speed is {speed}km/h at {current_time}"
+    print(message)
+    print()
+
+    # URL of CloudServer where the speed message will be sent
+    url = f"http://{CloudServer_IP}:{CloudServer_port2}/receive_message"
+    try:
+        # Send the message to CloudServer
+        response = requests.post(url, data=message, headers={'Content-Type': 'text/plain'})
+        # Print the status code and response from CloudServer
+        print(f"Sent '{message}' to CloudServer: {response.status_code}")
+        print("Response from CloudServer:")
+        print(response.text)
+    except requests.exceptions.RequestException as e:
+        # Print an error message if the request fails
+        print(f"Failed to send message to CloudServer: {e}")
+
+    # Return a response indicating that the message was received
+    return Response("Message received", status=200)
+
+
+# Function to get the IP address of a specified network interface
+def get_ip_address(interface):
+    try:
+        # Run the 'ifconfig' command for the specified interface
+        result = subprocess.run(['ifconfig', interface], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+        if result.returncode != 0:
+            raise ValueError(f"Failed to get ifconfig info for {interface}")
+
+        # Decode the output from the command
+        output = result.stdout.decode('utf-8')
+        # Use regular expression to find the IP address in the output
+        match = re.search(r'inet (\d+\.\d+\.\d+\.\d+)', output)
+        if match:
+            return match.group(1)
+        else:
+            raise ValueError(f"No IP address found for {interface}")
+    except Exception as e:
+        # Print an error message if any exception occurs
+        print(f"Error: {e}")
+        return None
+
+# Main block to run the Flask app
+if __name__ == '__main__':
+    # Get the IP address of the 'uesimtun0' 5G network interface
+    interface_ip = get_ip_address('uesimtun0')
+    if interface_ip:
+        # Print the IP address and start the Flask app
+        print(f"Starting Flask app on IP address: {interface_ip}")
+        app.run(debug=True, host=interface_ip, port=UE2port)
+    else:
+        # Print an error message and exit if the IP address is not found
+        print("Could not find the IP address for the interface. Exiting.")
+
