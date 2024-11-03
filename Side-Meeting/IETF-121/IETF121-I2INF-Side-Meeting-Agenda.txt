@@ -17,7 +17,6 @@ o Goal of In-Network Functions (I2INF)
   An INF is a Programmable Network Device (PND) in an In-Network Computing (INC)
   environment that can have multiple kinds of capabilities to provision a user's service,
   consisting of Network Functions (NFs) and Application Functions (AFs).
-
 - This group tries to specify a problem statement for the Interface to In-Network
   Functions (I2INF) for user services both on the network-level and application-level.
   In-Network Functions (INF) include In-Network Computing Functions (INCF) which
