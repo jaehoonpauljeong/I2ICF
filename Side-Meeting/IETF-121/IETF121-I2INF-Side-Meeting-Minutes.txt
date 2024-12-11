@@ -1,0 +1,75 @@
+[IETF-121] I2INF Side Meeting Minutes
+
+o IETF-121 I2INF Side Meeting
+- When: 3:00pm-4:30pm on November 5, 2024 (Wednesday)
+- Where: WMR 4 (Level: Second Floor)
+  https://datatracker.ietf.org/meeting/121/floor-plan?room=wicklow-mr-4
+- Agenda: https://github.com/jaehoonpauljeong/I2INF/blob/main/Side-Meeting/IETF-121/IETF121-I2INF-Side-Meeting-Agenda.txt
+- Meeting Materials:
+  https://github.com/jaehoonpauljeong/I2INF/tree/main/Side-Meeting/IETF-121 
+- Chair: Jaehoon (Paul) Jeong
+- Minutes Taker: Mose Gu
+---------------------------------------------------------------------
+
+o Agenda
+- Agenda Bash
+ . Chair: Jaehoon (Paul) Jeong
+ . Time: 10 min (15:00-15:10)
+ 
+- IETF-121 I2INF Hackathon Project
+ . Presenter: Jiwon Suh (SKKU)
+ . Time: 10 min (15:10-15:20)
+ . Slides: https://datatracker.ietf.org/doc/slides-121-hackathon-sessd-interface-to-in-network-functions-i2inf-project/
+
+- I2INF: Problem Statement
+ . Presenter: Yoseop Ahn (SKKU)
+ . Time: 15 min (15:20-15:35)
+ . Draft: https://datatracker.ietf.org/doc/draft-jeong-opsawg-i2inf-problem-statement/
+  
+- A Framework for I2INF
+ . Presenter: Mose Gu (SKKU)
+ . Time: 15 min (15:35-15:50)
+ . Draft: https://datatracker.ietf.org/doc/draft-jeong-opsawg-i2inf-framework/
+  
+- A Use Case of I2NSF: Data Center Networking
+ . Presenter: Kehan Yao (China Mobile) and Jaehoon (Paul) Jeong (SKKU)
+ . Time: 10 min (15:50-16:00)
+ . Draft: https://datatracker.ietf.org/doc/draft-ywj-opsawg-i2inf-data-center-networking/
+
+- Discussion
+ . Facilitator: Jaehoon (Paul) Jeong (SKKU)
+ . Time: 30 min (16:00-16:30)
+ . Topic: Discussion on the Problem Statement, Framework, Use Cases,
+   and Next Steps for I2INF BoF in IETF 122 (in Bangkok).
+---------------------------------------------------------------------
+
+o Main Presentation Summaries:
+- Jiwon: Presented on the I2INF Hackathon.
+- Yoseop: Explained the I2INF Problem Statement.
+- Mose: I2INF Framework presentation.
+- Kehan Yao: Discussed a Use Case of I2NSF in Data Center Networking.
+  Explained I2INF Data Center Networking Interface within the Compute Domain and Network Domain.
+---------------------------------------------------------------------
+
+o Discussion & Q&A
+- Marko: Expressed difficulty in understanding the distinction between regular network functions and I2INF.
+
+- Dr. Yang: Sought clarification on whether the project is vehicle-related and requested a reference for the interface.
+Highlighted that the presence of the compute domain interface distinguishes I2INF from I2NSF.
+
+- Kehan Yao:
+1. Emphasized the necessity of GPU parameter aggregation for AI learning, with the compute domain interface essential for acceleration.
+2. Shared AD’s reflection—collaboration with operations/companies is essential.
+3. Net computing is challenging in academia and clarification is needed due to close similarity with CATS WG.
+4. There is demand for compute domain vs. network domain configuration; compute side configuration is an area of concern outside the network domain.
+
+- Dr. Lee: Noted potential overlap with NMRG scope and highlighted the need to clarify roles between working groups and research groups.
+---------------------------------------------------------------------
+
+o Action Items
+- Share additional reference materials for interface-related concerns.
+- Further discussions on differentiating I2INF from CATS WG.
+- Draft guidelines for Intent Translation with a focus on edge cloud relevance.
+- Make a mailing list: i2icf@ietf.org
+
+
