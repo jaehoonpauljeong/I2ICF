@@ -1,7 +1,7 @@
 [IETF 121] Side Meeting for Interface to In-Network Functions (I2INF)
 
 o IETF-121 I2INF Side Meeting
-- When: 3:00pm-4:30pm on November 5, 2024 (Wednesday)
+- When: 3:00pm-4:30pm on November 6, 2024 (Wednesday)
 - Where: WMR 4 (Level: Second Floor)
   https://datatracker.ietf.org/meeting/121/floor-plan?room=wicklow-mr-4
 - Agenda:
