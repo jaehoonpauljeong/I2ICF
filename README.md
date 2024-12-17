@@ -11,7 +11,7 @@ o Group Information
   Operations and Management Area (ops)
 
 - The list administrators
-  Jaehoon Paul Jeong (Sungkyunkwan University): jaehoon.paul@gmail.com
+  Jaehoon Paul Jeong (Sungkyunkwan University): jaehoon.paul@gmail.com,
   Kehan Yao (China Mobile): khyao78@gmail.com
 
 o Charter
