@@ -10,6 +10,12 @@ o Group Information
 - The IETF area
   Operations and Management Area (ops)
 
+- The email list subscription
+  https://mailman3.ietf.org/mailman3/lists/i2icf.ietf.org/
+
+- The email archive
+  https://mailarchive.ietf.org/arch/browse/i2icf/
+
 - The list administrators
   Jaehoon Paul Jeong (Sungkyunkwan University): jaehoon.paul@gmail.com,
   Kehan Yao (China Mobile): khyao78@gmail.com
