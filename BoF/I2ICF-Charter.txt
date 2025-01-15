@@ -16,7 +16,7 @@ o Group Information
 
 o Charter
 - The I2ICF group tries to standardize a framework and its interfaces toconfigure, monitor, and manage
-  In-Network Computing Functions (ICF)in Computing in the Network (COIN) and comes up with a framework to
+  In-Network Computing Functions (ICF) in Computing in the Network (COIN) and comes up with a framework to
   manage such ICFs in an autonomous way. An ICF is a ProgrammableNetwork Device (PND) in an In-Network
   Computing (INC)  environmentthat can have multiple kinds of capabilities to provision a user's service,
   consisting of Network Functions (NFs) and Application Functions (AFs).
