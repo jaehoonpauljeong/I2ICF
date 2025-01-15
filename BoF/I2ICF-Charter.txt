@@ -23,7 +23,7 @@ o Charter
 
 - The I2ICF aims at a standard framework and interfaces for provisioningICFs for the requested services
   in an Edge or Cloud. It can collaboratewith CATS WG for computing-aware traffic steering at edge and
-  cloudcomputing systems.
+  cloud computing systems.
 
 - The I2ICF group tries to specify a problem statement for the Interface toIn-Network Computing Functions
   (I2ICF) for user services both on thenetwork-level and application-level. In-Network Computing Functions
