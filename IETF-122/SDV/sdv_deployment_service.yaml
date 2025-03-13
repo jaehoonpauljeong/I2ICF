@@ -1,0 +1,32 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: sdv
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: sdv
+  template:
+    metadata:
+      labels:
+        app: sdv
+    spec:
+      containers:
+      - name: sdv-service
+        image: sdv-service
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 5000
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: sdv
+spec:
+  selector:
+    app: sdv
+  ports:
+  - protocol: TCP
+    port: 5000
+    targetPort: 5000
