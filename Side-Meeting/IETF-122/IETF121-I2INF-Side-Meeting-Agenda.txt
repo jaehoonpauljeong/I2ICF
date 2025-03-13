@@ -1,0 +1,42 @@
+[IETF 122] Side Meeting for Interface to In-Network Computing Functions (I2ICF)
+
+o IETF-122 I2ICF Side Meeting
+- When: 3:00pm ~ 5:00pm on March 20, 2025 (Thursday) in UTC+07 (Bangkok)
+- Where: Meeting Room 2
+- Zoom Meeting Link:
+  https://us02web.zoom.us/j/82577582839?pwd=fjBTH11949CP6MmosyTgOCIgnz0gn1.1
+
+o Agenda
+- Agenda Bash
+ . Chair: Jaehoon Paul Jeong
+ . Time: 10 min (15:00-15:10)
+ 
+- IETF-122 I2ICF Hackathon Project
+ . Presenter: Xudong Wang (SKKU)
+ . Time: 10 min (15:10-15:20)
+
+- I2ICF: Problem Statement
+ . Presenter: Jaehoon Paul Jeong
+ . Time: 15 min (15:20-15:35)
+ . Draft: https://datatracker.ietf.org/doc/draft-jeong-opsawg-i2icf-problem-statement/
+  
+- A Framework for I2ICF
+ . Presenter: Yoseop Ahn (SKKU)
+ . Time: 15 min (15:35-15:50)
+ . Draft: https://datatracker.ietf.org/doc/draft-jeong-opsawg-i2icf-framework/
+  
+- A Use Case of I2ICF: Data Center Networking
+ . Presenter: Kehan Yao (China Mobile)
+ . Time: 15 min (15:50-16:05)
+ . Draft: https://datatracker.ietf.org/doc/draft-ywj-opsawg-i2icf-data-center-networking/
+
+- A Use Case of I2ICF: Cooperative Intelligent Transportation Systems
+ . Presenter: Byoungman Robert An (KETI)
+ . Time: 15 min (16:05-16:20)
+ . Draft: https://datatracker.ietf.org/doc/draft-ahn-opsawg-i2icf-cits/
+
+- Discussion
+ . Facilitator: Jaehoon Paul Jeong (SKKU)
+ . Time: 40 min (16:20-17:00)
+ . Topic: Discussion on the Problem Statement, Framework, Use Cases, 
+   Charter, and Next Steps for I2ICF BoF in IETF 123 (in Madrid).
