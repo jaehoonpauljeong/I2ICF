@@ -1,0 +1,24 @@
+[IETF 123] Minutes of IETF-123 I2ICF Side Meeting 
+
+o IETF-123 I2ICF Side Meeting
+- When: 2:30pm ~ 4:00pm on July 23, 2025 (Wednesday) in UTC+02 (Madrid)
+- Where: Segovia in Melia Castilla Hotel
+- Zoom Meeting Link:  
+  https://skku-edu.zoom.us/j/83225171500?pwd=I5HW4RC2rQ7OsnatJ14tRmZWcvKe24.1
+- Slides and Drafts: https://github.com/jaehoonpauljeong/I2ICF/tree/main/Side-Meeting/IETF-123
+- Meeting Video Clip: https://drive.google.com/drive/folders/1-i-Xh-ho-3tqt-uR-6orq0t-3OFu5v_j?usp=sharing
+- Mailing List: https://mailman3.ietf.org/mailman3/lists/i2icf.ietf.org/
+ 
+o Pedro:
+1. Use cases must be reflected to the I2ICF hackathon project.
+2. Network intent and control intent both are specified, but something that puts them together is missing.
+3. Network intent is well-known. But vehicular intent is not clear, so it should besomething specific in vehicular networks and use cases.
+
+o Chris: 
+1. A domain-specific language (DSL) should be prepared to model data.
+
+o IKE: 
+1. Regarding the number of uses cases, solutions need to be focused on one specific aspect. 
+2. Different components in the I2ICF framework have to play together.
+3. Specify what an in-network computing function is. 
+The name of in-network computing function is not clear. So the definition of in-network computing function should be clarified.
