@@ -6,7 +6,7 @@ o IETF-123 I2ICF Side Meeting
 - Zoom Meeting Link:  
   https://skku-edu.zoom.us/j/83225171500?pwd=I5HW4RC2rQ7OsnatJ14tRmZWcvKe24.1
 - Slides and Drafts: https://github.com/jaehoonpauljeong/I2ICF/tree/main/Side-Meeting/IETF-123
-- Meeting Video Clip: https://drive.google.com/drive/folders/1-i-Xh-ho-3tqt-uR-6orq0t-3OFu5v_j?usp=sharing
+- Meeting Minutes and Video Clip: https://drive.google.com/drive/folders/1-i-Xh-ho-3tqt-uR-6orq0t-3OFu5v_j?usp=sharing
 - Mailing List: https://mailman3.ietf.org/mailman3/lists/i2icf.ietf.org/
  
 o Pedro:
