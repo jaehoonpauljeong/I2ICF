@@ -8,9 +8,11 @@ import base64
 app = Flask(__name__)
 
 # --- 저장 디렉토리 설정 ---
-LOG_DIR = "inference_logs"
+LOG_DIR = "logs"
+JSON_DIR = os.path.join(LOG_DIR, "json")
 IMAGE_DIR = os.path.join(LOG_DIR, "images")
 os.makedirs(LOG_DIR, exist_ok=True)
+os.makedirs(JSON_DIR, exist_ok=True)
 os.makedirs(IMAGE_DIR, exist_ok=True)
 
 @app.route('/inference', methods=['POST'])
@@ -24,7 +26,7 @@ def receive_inference():
         safe_timestamp = timestamp.replace(":", "_")  # 윈도우 등 호환을 위해 콜론 제거
 
         # --- JSON 로그 파일 저장 ---
-        json_path = os.path.join(LOG_DIR, f"{safe_timestamp}.json")
+        json_path = os.path.join(JSON_DIR, f"{safe_timestamp}.json")
         with open(json_path, "w") as f:
             json.dump(data, f, indent=2)
 

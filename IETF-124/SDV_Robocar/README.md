@@ -1,43 +1,47 @@
 ## Main steps
-**Robocar**<br/>
+**LIMO**<br/>
 - Run server<br/>
 - Stream camera<br/>
+- Scan LiDAR
 - Subscribe to /wheel/odom topic(from ```base_limo.launch.py```)<br/>
+- Subscribe to /scan topic(from ```ydlidar.launch.py```)<br/>
++ Receive distance of closest person from Desktop to control the LIMO<br/>
 
 **Desktop**<br/>
-- Receive camera stream from Robocar<br/>
-- Extract class and bbox information from Robocar<br/>
-- Receive odometry data(pose, twist) from Robocar and compute GPS coordinates<br/>
+- Receive camera stream from LIMO<br/>
+- Extract class and bbox information from LIMO<br/>
+- Receive odometry data(pose, twist) from LIMO and compute GPS coordinates<br/>
+- Receive 2D LiDAR data(angle_min, angle_increment, ranges) from LIMO and compute Camera & LiDAR calibration<br/>
+- POST distance to LIMO<br/>
 
 
 **Kubernetes**<br/>
-- Save JSON, JPEG files in real time (1s)<br/>
+- Run server<br/>
+- Save JSON files & Images in real time (1s)<br/>
 <br/>
 
-### 0. Run the launch file (Robocar)
+### 1. Run IMO server (LIMO)
 ```
-$ cd agilex/src/
-$ ros2 launch limo_base limo_base.launch.py    # Wait for 10 seconds after termination before restarting
-```
-
-### 1. Run Robocar server (Robocar)
-```
-$ python robocar_server.py    # only camera streaming
-or
-$ python robocar_server2.py    # camera streaming + odometry subscription
+$ ros2 launch limo_base limo_base.launch.py    # terminal 1
+$ ros2 launch ydlidar_ros2_driver ydlidar.launch.py   # terminal 2
+$ python imo_server_lidar.py    # terminal 3
 ```
 
-### 2. Run Kubernetes server (Kubernetes)
+### 2. Run k8s server (Kubernetes)
 ```
 $ python k8s_server.py
 ```
 
-### 3. YOLO Detection + Odometry (Desktop)
+### 3. YOLO Detection + Odometry + 2D Lidar (Desktop)
 ```
-$ python desktop_yolo_stream.py    # only camera streaming
-or
-$ python desktop_yolo_stream2.py    # camera streaming + odometry subscription
+$ python edge_control.py
 ```
+
+### 4. Control IMO (LIMO)
+```
+$ python imo_control.py    # terminal 4
+```
+
 <br/>
 
 - YOLO Detection (Desktop)<br/>
@@ -49,11 +53,6 @@ $ python desktop_yolo_stream2.py    # camera streaming + odometry subscription
 <img src="https://github.com/user-attachments/assets/9a6a7beb-29b9-4d06-8f85-fc2fe75a017a" width="500" height="350"/>
 
 <br/><br/>
-
-## Additional files
-```robocar_yolo_stream.py```: YOLO detection on Robocar</br>
-```robocar_odom.py```: Save odometry information (JSON format) on Robocar</br>
-</br><br/>
 
 ## Data classes
 **yolov8s :**<br/>
