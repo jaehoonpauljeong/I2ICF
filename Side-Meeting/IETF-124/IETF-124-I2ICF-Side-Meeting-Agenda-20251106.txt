@@ -1,0 +1,40 @@
+[11/06/2025] IETF-124 Side Meeting for Interface to In-Network Computing Functions (I2ICF)
+
+o IETF-124 I2ICF Side Meeting
+- When: 9:15 pm ~ 10:15 pm on November 6, 2025 (Thursday) in UTC-05 (EST), Montreal
+- Where: McGill
+- Zoom Meeting Link:  
+  Meeting Link: https://skku-edu.zoom.us/j/83209601889?pwd=RS1CEnqintD81VzCV3Zas14NXaiAq2.1
+  Meeting ID: 832 0960 1889
+  Password: 234066
+- Slides and Drafts: https://github.com/jaehoonpauljeong/I2ICF/tree/main/Side-Meeting/IETF-124
+- Mailing List: https://mailman3.ietf.org/mailman3/lists/i2icf.ietf.org/
+
+o Agenda
+- Agenda Bash
+ . Chair: Jaehoon Paul Jeong
+ . Time: 5 min (09:15-09:20)
+ 
+- IETF-124 I2ICF Hackathon Project
+ . Presenter: Jisuk Chae (SKKU)
+ . Time: 5 min (09:20-09:25)
+ . Slides: https://datatracker.ietf.org/meeting/124/materials/slides-124-hackathon-sessd-interface-to-in-network-computing-functions-i2icf-project-00
+
+- IETF-124 5G-I2NSF Hackathon Project
+ . Presenter: Jiwon Suh (SKKU)
+ . Time: 5 min (09:25-09:30)
+ . Slides: https://datatracker.ietf.org/meeting/124/materials/slides-124-hackathon-sessd-5g-i2nsf-an-integrated-security-system-for-5g-networks-with-i2nsf-00
+
+- Overview of Agentic AI
+ . Presenter: Yoseop Ahn
+ . Time: 10 min (09:30-09:40)
+  
+- I2ICF Use Case - Cooperative Intelligent Transportation Systems (C-ITS) with Agentic AI
+ . Presenter: Byoungman Robert An (KETI)
+ . Time: 10 min (09:40-09:50)
+ . Draft: https://datatracker.ietf.org/doc/draft-ahn-opsawg-i2icf-cits/
+
+- Discussion
+ . Facilitator: Jaehoon Paul Jeong (SKKU)
+ . Time: 25 min (09:50-10:15)
+ . Topic: Discussion on the Next Steps for I2ICF BoF in IETF 125 (Shenzhen).
