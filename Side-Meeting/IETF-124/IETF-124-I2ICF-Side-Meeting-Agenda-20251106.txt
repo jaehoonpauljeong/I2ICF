@@ -16,7 +16,7 @@ o Agenda
  . Time: 5 min (09:15-09:20)
  
 - IETF-124 I2ICF Hackathon Project
- . Presenter: Jisuk Chae (SKKU)
+ . Presenter: Mose Gu (SKKU)
  . Time: 5 min (09:20-09:25)
  . Slides: https://datatracker.ietf.org/meeting/124/materials/slides-124-hackathon-sessd-interface-to-in-network-computing-functions-i2icf-project-00
 
