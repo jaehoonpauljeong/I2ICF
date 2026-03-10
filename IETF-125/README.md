@@ -38,6 +38,7 @@ $ python k8s_server.py
 ### 3. Intent Sender server (Kubernetes)
 ```
 $ python intent_server.py
+# received_policy.yanl: pass/drop to activate or deactivate stop/detour function
 ```
 
 ### 4. YOLO Detection + Odometry + 2D Lidar (Desktop)
