@@ -1,0 +1,21 @@
+i2nsf-security-policy:
+  '@xmlns': urn:ietf:params:xml:ns:yang:ietf-i2nsf-nsf-facing-interface
+  name: Employee_policy
+  rules:
+    name: ObjectDetection_rule
+    condition:
+      ipv4:
+        destination-ipv4-range:
+          start: 192.168.18.200
+          end: 192.168.18.200
+      tcp:
+        destination-port-number:
+          port-numbers:
+            start: '80'
+            end: '80'
+    action:
+      packet-action:
+        ingress-action: drop
+
+
+
