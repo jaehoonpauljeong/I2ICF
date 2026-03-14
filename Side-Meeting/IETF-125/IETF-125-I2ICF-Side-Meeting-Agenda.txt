@@ -34,7 +34,11 @@ o Agenda
  . Draft:
    https://datatracker.ietf.org/doc/draft-an-nmrg-i2icf-cits/
 
+- Use Case of I2ICF: AI Agent-Based LivingCare Framework for Human Welfare
+ . Presenter: Yoseop Ahn (SKKU)
+ . Time: 10 min (14:20-14:30)
+
 - Discussion
  . Facilitator: Jaehoon Paul Jeong (SKKU)
- . Time: 55 min (14:20-13:15)
+ . Time: 55 min (14:30-13:15)
  . Topic: Discussion on the Next Steps for I2ICF BoF in IETF 126 (Vienna).
