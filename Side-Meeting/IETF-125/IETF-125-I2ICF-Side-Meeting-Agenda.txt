@@ -1,0 +1,40 @@
+[03/16/2026] Agenda for IETF-125 Side Meeting for Interface to In-Network Computing Functions (I2ICF)
+
+o IETF-125 I2ICF Side Meeting
+- When: 1:45 pm ~ 3:15 pm on March 16, 2026 (Monday) in UTC+08 (Asia/Shanghai), Shenzhen in China
+- Where: Hunan
+- Zoom Meeting Link:  
+  Meeting Link: https://skku-edu.zoom.us/j/89406049747?pwd=zmqKnkvRSBbe9wyRTA0CA5o12BW2Kd.1
+  Meeting ID: 894 0604 9747
+  Password: 300443
+- Slides and Drafts: https://github.com/jaehoonpauljeong/I2ICF/tree/main/Side-Meeting/IETF-125
+- Mailing List: https://mailman3.ietf.org/mailman3/lists/i2icf.ietf.org/
+
+o Agenda
+- Agenda Bash
+ . Chair: Jaehoon Paul Jeong
+ . Time: 5 min (13:45-13:50)
+ 
+- IETF-125 I2ICF Hackathon Project
+ . Presenter: Xudong Wang (SKKU)
+ . Time: 10 min (13:50-14:00)
+ . Drafts:
+   https://datatracker.ietf.org/doc/draft-jeong-nmrg-i2icf-problem-statement/
+   https://datatracker.ietf.org/doc/draft-jeong-nmrg-i2icf-framework/
+   
+- IETF-125 5G-I2NSF Hackathon Project
+ . Presenter: Bien Aime Mugabarigira (SKKU)
+ . Time: 10 min (14:00-14:10)
+ . Draft:
+   https://datatracker.ietf.org/doc/draft-ahn-nmrg-5g-security-i2nsf-framework/
+  
+- Interface to In-Network Computing Functions for Cooperative Intelligent Transportation Systems
+ . Presenter: Byoungman Robert An (KETI)
+ . Time: 10 min (14:10-14:20)
+ . Draft:
+   https://datatracker.ietf.org/doc/draft-an-nmrg-i2icf-cits/
+
+- Discussion
+ . Facilitator: Jaehoon Paul Jeong (SKKU)
+ . Time: 55 min (14:20-13:15)
+ . Topic: Discussion on the Next Steps for I2ICF BoF in IETF 126 (Vienna).
