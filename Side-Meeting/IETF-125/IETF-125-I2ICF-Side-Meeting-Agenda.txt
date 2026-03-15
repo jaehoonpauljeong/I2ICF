@@ -16,7 +16,7 @@ o Agenda
  . Time: 5 min (13:45-13:50)
  
 - IETF-125 I2ICF Hackathon Project
- . Presenter: Xudong Wang (SKKU)
+ . Presenter: Jisuk Chae (SKKU)
  . Time: 10 min (13:50-14:00)
  . Drafts:
    https://datatracker.ietf.org/doc/draft-jeong-nmrg-i2icf-problem-statement/
