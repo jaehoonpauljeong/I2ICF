@@ -19,6 +19,7 @@ from .services import limo_llm, function_table, sequence_parser
 from .services.rosbridge import bridge
 from .services.yolo_detection import detection_session
 from .services.yolo_trace import trace_session
+from .services import safety_monitor  # noqa: F401 — import starts the background e-stop monitor
 
 
 def _stop_all() -> None:
@@ -111,6 +112,7 @@ class StatusView(APIView):
             "rosbridge_connected": bridge.connected,
             "detection_running": detection_session.running,
             "trace_running": trace_session.running,
+            "estop_active": bridge.estop,
         })
 
 

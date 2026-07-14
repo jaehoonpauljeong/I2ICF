@@ -11,3 +11,7 @@ OLLAMA_MODEL = "llama3.1:8b"
 YOLO_MODEL_PATH = "yolo11n.pt"
 YOLO_CONFIDENCE = 0.5
 FRAME_CENTER_THRESHOLD = 60  # pixels
+
+# Safety e-stop — same bbox_height/frame_height proxy as yolo_trace.py
+SAFETY_STOP_RATIO = 0.65      # ratio at/above which an obstacle forces e-stop
+SAFETY_CHECK_INTERVAL = 0.3   # seconds between safety checks

@@ -30,6 +30,7 @@ class _RosBridge:
         self._ws        = None
         self._lock      = threading.Lock()
         self._connected = False
+        self._estop     = False
         # background reconnection thread
         t = threading.Thread(target=self._reconnect_loop, daemon=True)
         t.start()
@@ -38,6 +39,22 @@ class _RosBridge:
     def connected(self) -> bool:
         return self._connected
 
+    @property
+    def estop(self) -> bool:
+        return self._estop
+
+    def set_estop(self, value: bool) -> None:
+        """Engage/release the safety e-stop. Engaging forces an immediate stop
+        and makes publish_cmd_vel ignore drive commands until released."""
+        if value == self._estop:
+            return
+        self._estop = value
+        if value:
+            print("[RosBridge] E-STOP engaged — obstacle too close")
+            self.stop_robot()
+        else:
+            print("[RosBridge] E-STOP released")
+
     def ensure_connected(self) -> None:
         """Blocking connect (called from command path)."""
         if self._connected:
@@ -45,6 +62,10 @@ class _RosBridge:
         self._try_connect()
 
     def publish_cmd_vel(self, linear_x: float, angular_z: float) -> None:
+        if self._estop:
+            self.stop_robot()
+            return
+
         msg = {
             "linear":  {"x": float(linear_x), "y": 0.0, "z": 0.0},
             "angular": {"x": 0.0, "y": 0.0, "z": float(angular_z)},
