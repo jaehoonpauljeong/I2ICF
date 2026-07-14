@@ -1,0 +1,12 @@
+{
+    "Intent": {
+        "Action": "hello",
+        "ExpectationObject": "hello",
+        "ExpectationTarget": "hello"
+    },
+    "KGTriple": {
+        "head": "AdminAgent",
+        "relation": "alert",
+        "tail": "intent_coverage_expansion_zoneA"
+    }
+}

@@ -1,0 +1,9 @@
+intentExpectations:
+- expectationId: AdminAgent
+  expectationType: hello
+  targetMetric: hello
+  unit: intent_coverage_expansion_zoneA
+intentActions:
+- actionType: hello
+  actionTargetOperation: alert
+degraded: false

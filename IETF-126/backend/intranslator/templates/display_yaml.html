@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YAML Data</title>
+</head>
+<body>
+    <h1>Received YAML Data:</h1>
+    {% if yaml_data %}
+        <pre>{{ yaml_data }}</pre>
+    {% elif error %}
+        <h2>Error:</h2>
+        <pre>{{ error }}</pre>
+    {% endif %}
+</body>
+</html>

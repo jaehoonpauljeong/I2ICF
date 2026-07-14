@@ -1,0 +1,10 @@
+Intent:
+  Action: intentActions[0].actionType
+  ExpectationObject: intentExpectations[0].expectationType
+  ExpectationTarget: intentExpectations[0].targetMetric
+  Context: intentExpectations[0].geoAreaId
+
+KGTriple:
+  head: intentExpectations[0].expectationId
+  relation: intentActions[0].actionTargetOperation
+  tail: intentExpectations[0].unit

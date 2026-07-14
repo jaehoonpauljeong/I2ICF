@@ -1,0 +1,59 @@
+####################
+# Python
+####################
+__pycache__/
+*.py[cod]
+*$py.class
+
+####################
+# Virtual Environment
+####################
+venv/
+env/
+myenv/
+.venv/
+
+####################
+# Django
+####################
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/
+
+####################
+# Environment variables
+####################
+.env
+.env.*
+!.env.example
+
+####################
+# IDE / Editor
+####################
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+####################
+# Test / Coverage
+####################
+.coverage
+htmlcov/
+.pytest_cache/
+
+####################
+# Migrations (선택)
+####################
+# migrations 파일을 버전관리 안 할 거면 아래 활성화
+# */migrations/
+# */migrations/__pycache__/
+
+####################
+# MySQL
+####################
+*.sql
