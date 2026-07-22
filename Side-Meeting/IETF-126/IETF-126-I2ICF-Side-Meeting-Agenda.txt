@@ -1,0 +1,35 @@
+IETF-126 Side Meeting of I2ICF (Interface to In-Network Computing Functions)
+
+o Agenda Bash
+Chair: Jaehoon Paul Jeong (SKKU)
+Date/Time: July 21, 2026, 18:30-20:00 (90 min)
+Place: Park Suite 4, Hilton Vienna Park
+Zoom: https://skku-edu.zoom.us/j/87452524411?pwd=e0x8MB80acbVnPXvbG2MJ6IBmZZmHf.1 
+GitHub – Hackathon Project:
+https://github.com/jaehoonpauljeong/I2ICF/tree/main/IETF-126
+GitHub – Meeting Materials:
+https://github.com/jaehoonpauljeong/I2ICF/tree/main/Side-Meeting/IETF-126 
+Time: 5 min (18:30-18:35)
+
+o IETF-126 I2ICF Hackathon Project
+Presenter: Eunjin Hwang (SKKU)
+Time: 15 min (18:35-18:50)
+Drafts:
+https://datatracker.ietf.org/doc/draft-jeong-nmrg-i2icf-framework/ https://datatracker.ietf.org/doc/draft-jeong-nmrg-i2icf-problem-statement/
+
+o IETF-126 5G-I2NSF Hackathon Project 
+Presenter: Yoseop Ahn (SKKU)
+Time: 15 min (18:50-19:05)
+Drafts:
+https://datatracker.ietf.org/doc/draft-ahn-nmrg-5g-security-i2nsf-framework/ 
+https://datatracker.ietf.org/wg/i2nsf/documents/ 
+
+o Agentic I2ICF for SDV in C-ITS
+Presenter: Byoungman Robert An (KETI)
+Time: 15 min (19:05-19:20)
+Draft: https://datatracker.ietf.org/doc/draft-an-nmrg-i2icf-cits/ 
+
+o Discussion
+Facilitator: Jaehoon Paul Jeong (SKKU)
+Time: 40 min (19:20-20:00)
+Topic: Discussion on the Next Steps for I2ICF BoF in IETF 127 (San Francisco)
