@@ -1,0 +1,15 @@
+{
+  "intent": {
+    "intent_id": "move_001",
+    "action": "move",
+    "target_location": {
+      "x": -16.0,
+      "y": 0.0,
+      "frame_id": "map"
+    },
+    "constraints": {
+      "safety_margin_m": 0.45
+    },
+    "report": true
+  }
+}
